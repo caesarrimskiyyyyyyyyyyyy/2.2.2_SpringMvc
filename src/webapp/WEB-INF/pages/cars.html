@@ -5,19 +5,19 @@
     <title>Cars</title>
 </head>
 <body>
-<table border="1">
+<table style="border: 1px solid rgb(13, 47, 217);">
     <thead>
     <tr>
-        <th>Brand</th>
-        <th>Engine</th>
-        <th>Horse power</th>
+        <th style="border: 1px solid rgb(13, 47, 217);">Brand</th>
+        <th style="border: 1px solid rgb(13, 47, 217);">Numbers of cylinders</th>
+        <th style="border: 1px solid rgb(13, 47, 217);">Horse power</th>
     </tr>
     </thead>
     <tbody>
     <tr th:each="car : ${count}">
-        <td th:utext="${car.getName()}"></td>
-        <td th:utext="${car.getNumbersOfCylinders()}"></td>
-        <td th:utext="${car.getHorsePower()}"></td>
+        <td th:utext="${car.getName()}" style="border: 1px solid rgb(13, 47, 217);"></td>
+        <td th:utext="${car.getNumbersOfCylinders()}" style="border: 1px solid rgb(13, 47, 217);"></td>
+        <td th:utext="${car.getHorsePower()}" style="border: 1px solid rgb(13, 47, 217);"></td>
     </tr>
     </tbody>
 </table>
