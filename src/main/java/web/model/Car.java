@@ -22,11 +22,11 @@ public class Car {
         this.name = name;
     }
 
-    public String getEngine() {
+    public String getNumbersOfCylinders() {
         return numbersOfCylinders;
     }
 
-    public void setEngine(String engine) {
+    public void setNumbersOfCylinders(String engine) {
         this.numbersOfCylinders = engine;
     }
 
