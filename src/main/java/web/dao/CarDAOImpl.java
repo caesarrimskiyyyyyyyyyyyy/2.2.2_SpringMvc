@@ -20,8 +20,7 @@ public class CarDAOImpl implements CarDAO {
     }
 
     @Override
-    public List<Car> getCountCars(Integer count) {
-        return count == null || count >= cars.size()
-                ? cars : cars.subList(0, count);
+    public List<Car> getAllCars() {
+        return cars;
     }
 }
